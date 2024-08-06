@@ -74,17 +74,19 @@ export default function Home() {
             {/* </Suspense> */}
           </div>
         </section>
-        <section className="w-[80%] m-auto px-5">
-          <div className="grid grid-cols-1 gap-8 justify-around xl:grid-cols-4 lg:grid-cols-3">
-            <div className="flex flex-col text-center items-center xl:text-left xl:items-start">
-              <h1 className="font-bold text-md">ABOUT</h1>
-              <div className="w-20 h-0.5 my-3 rounded-full  bg-gradient-to-r from-blue-400 via-pink-400 to-indigo-400"></div>
-              <div className='flex flex-col text-gray-400'>
-                <Link className="text-md my-1" href="./NYNYC_whitepaper.pdf">WhitePaper</Link>
-                <Link className="text-md my-1" href="/comingSoon">Documentation</Link>
-                <Link className="text-md my-1" href="/comingSoon">CoinMarketCap</Link>
-                <Link className="text-md my-1" href="/comingSoon">CoinGecko</Link>
-                <Link className="text-md my-1" href="/comingSoon">Disclaimer</Link>
+
+        <section className="w-full">
+          <div className="grid grid-cols-4">
+            <div className="">
+              <h1 className="text-left font-bold text-2xl">ABOUT</h1>
+              <div className="inline-block items-start w-20 h-1 my-2 mx-auto rounded-full  bg-gradient-to-r from-blue-400 via-pink-400 to-indigo-400">
+                <a href="">Documentation</a>
+                <a href="">CoinMarketCap</a>
+                <a href="">CoinGecko</a>
+                <a href="NYNYC whitepaper.pdf">WhitePaper</a>
+                <>CoinMarketCap</>
+                <>CoinGecko</>
+
               </div>
             </div>
             <div className="flex flex-col text-center items-center xl:text-left xl:items-start">
