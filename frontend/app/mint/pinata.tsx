@@ -9,7 +9,7 @@ export const uploadJSONToIPFS = async(JSONBody) => {
 
   const url = `https://api.pinata.cloud/pinning/pinJSONToIPFS`;
   //making axios POST request to Pinata ⬇️
-  return axios 
+  return axios
     .post(url, JSONBody, {
       headers: {
         Authorization: `Bearer ${token}`
